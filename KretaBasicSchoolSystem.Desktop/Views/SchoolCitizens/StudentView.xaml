@@ -55,9 +55,8 @@
                      CommandParameter="{Binding SelectedStudent}"
                      />
         </StackPanel>
+        <!--A feladat megoldását ide kell írni -->
 
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="2 2 2 2" Padding="0 2" Text="{Binding SelectedStudent.LastName}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" Margin="2 2 2 2" Padding="0 2" Text="{Binding SelectedStudent.FirstName}"></TextBox>
         <DatePicker Grid.Row="3" Grid.Column="1" Margin="2 2 2 2" SelectedDate="{Binding SelectedStudent.BirthsDay}"></DatePicker>
         <StackPanel Grid.Row="5" Grid.Column="1">
             <RadioButton GroupName="schoolclass" Margin="2 4 2 2">a  osztály</RadioButton>
