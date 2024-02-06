@@ -13,7 +13,7 @@ namespace Kreta.Shared.Models
 
         public Teacher(string firstName, string lastName, DateTime birthsDay)
         {
-            Id = Guid.NewGuid();
+            Id = Guid.Empty;
             FirstName = firstName;
             LastName = lastName;
             BirthsDay = birthsDay;
@@ -21,7 +21,7 @@ namespace Kreta.Shared.Models
 
         public Teacher()
         {
-            Id = Guid.NewGuid();
+            Id = Guid.Empty;
             FirstName = string.Empty;
             LastName = string.Empty;
             BirthsDay = new DateTime();
