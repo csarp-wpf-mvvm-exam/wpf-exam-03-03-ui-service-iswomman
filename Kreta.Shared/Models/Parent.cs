@@ -12,7 +12,7 @@
 
         public Parent(string firstName, string lastName, DateTime birthsDay)
         {
-            Id = Guid.NewGuid();
+            Id = Guid.Empty;
             FirstName = firstName;
             LastName = lastName;
             BirthsDay = birthsDay;
@@ -20,7 +20,7 @@
 
         public Parent()
         {
-            Id = Guid.NewGuid();
+            Id = Guid.Empty;
             FirstName = string.Empty;
             LastName = string.Empty;
             BirthsDay = new DateTime();
