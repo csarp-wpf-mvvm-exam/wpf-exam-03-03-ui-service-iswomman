@@ -148,7 +148,7 @@ namespace Kreata.Backend.Context
 
             modelBuilder.Entity<Student>().HasData(students);
             modelBuilder.Entity<Teacher>().HasData(teachers);
-            modelBuilder.Entity<Parent>().HasData(teachers);
+            modelBuilder.Entity<Parent>().HasData(parents);
         }
     }
 }
