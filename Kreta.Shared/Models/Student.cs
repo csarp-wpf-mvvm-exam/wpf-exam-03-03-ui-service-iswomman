@@ -25,17 +25,6 @@ namespace Kreta.Shared.Models
             EducationLevel = educationLevel;
         }
 
-        public Student(string firstName, string lastName, DateTime birthsDay, int schoolYear, SchoolClassType schoolClass, string educationLevel)
-        {
-            Id = Guid.NewGuid();
-            FirstName = firstName;
-            LastName = lastName;
-            BirthsDay = birthsDay;
-            SchoolYear = schoolYear;
-            SchoolClass = schoolClass;
-            EducationLevel = educationLevel;
-        }
-
         public Student()
         {
             Id = Guid.Empty;
